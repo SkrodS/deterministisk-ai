@@ -19,7 +19,7 @@ ai.init(g_depth, show_ai_steps)
 
 # Printa brädets status
 g_board = [[0 for i in range(g_board_size)] for j in range(g_board_size)]
-# Angle mitten biterna still svart och vit
+# Ange mitten biterna still svart och vit
 mid = g_board_size//2
 g_board[mid-1][mid-1] = BLACK
 g_board[mid-1][mid] = WHITE
